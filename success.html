@@ -8,16 +8,16 @@
     <title>Frontend Mentor | Newsletter sign-up form with success message</title>
   </head>
 
-  <body class="font-roboto flex flex-col min-h-screen sm:bg-dark-slate-grey relative">
+  <body class="font-roboto flex flex-col min-h-screen sm:bg-dark-slate-grey relative" role="main">
     <div
       class="flex flex-col h-full sm:h-auto justify-between sm:m-auto bg-white sm:p-12 p-4 sm:rounded-xl sm:max-w-[29rem] gap-6"
     >
       <div class="h-1/2 flex flex-col justify-end gap-4 sm:h-auto">
-        <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-16">
+        <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-16" alt="success">
           Success
         </object>
-        <div class="text-4xl sm:text-5xl font-bold">Thanks for subscribing!</div>
-        <div id="email" class="font-normal"></div>
+        <div class="text-4xl sm:text-5xl font-bold" role="heading">Thanks for subscribing!</div>
+        <div id="email" class="font-normal" role="text"></div>
       </div>
       <a href="index.html">
         <button

@@ -22,29 +22,29 @@
       }
     </style>
   </head>
-  <body class="font-roboto flex flex-col min-h-screen sm:bg-dark-slate-grey relative">
+  <body class="font-roboto flex flex-col min-h-screen sm:bg-dark-slate-grey relative" role="main">
     <div class="flex flex-col sm:flex-row sm:m-auto bg-white sm:p-4 sm:rounded-xl sm:max-w-[48rem]">
       <div class="sm:order-1 order-2 p-6 flex flex-col gap-4">
-        <p class="text-5xl font-bold">Stay updated!</p>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="text-5xl font-bold" role="heading">Stay updated!</div>
+        <div role="text">Join 60,000+ product managers receiving monthly updates on:</div>
         <div class="flex flex-col gap-2">
           <div class="flex gap-2">
-            <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-6">
+            <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-6" alt="success">
               Success
             </object>
-            <div>Product discovery and building what matters</div>
+            <div role="text">Product discovery and building what matters</div>
           </div>
           <div class="flex gap-2">
-            <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-6">
+            <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-6" alt="success">
               Success
             </object>
-            <div>Measuring to ensure updates are a success</div>
+            <div role="text">Measuring to ensure updates are a success</div>
           </div>
           <div class="flex gap-2">
-            <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-6">
+            <object type="image/svg+xml" data="assets/images/icon-success.svg" class="w-6" alt="success">
               Success
             </object>
-            <div>And much more!</div>
+            <div role="text">And much more!</div>
           </div>
         </div>
 
@@ -63,6 +63,7 @@
             />
           </div>
           <button
+          role="button"
             type="submit"
             class="w-full p-4 bg-dark-slate-grey hover:bg-tomato hover:text-white text-white rounded-lg"
           >
@@ -70,19 +71,19 @@
           </button>
         </form>
       </div>
-      <div class="sm:order-2 order-1">
+      <div class="sm:order-2 order-1" role="img">
         <picture>
           <source
             media="(orientation: portrait)"
             srcset="assets/images/illustration-sign-up-mobile.svg"
           />
           <img src="assets/images/illustration-sign-up-desktop.svg" alt="" srcset="" />
-        </picture>
+        </div>
       </div>
     </div>
 
     <!-- Attribution -->
-    <div class="attribution">
+    <div class="attribution" role="contentinfo">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/DeepjyotiDeb">Deepjyoti Deb</a>.
